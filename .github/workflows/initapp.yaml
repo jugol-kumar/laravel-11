@@ -1,15 +1,10 @@
 name: Test Init App
 
 on: [push]
-
 jobs:
-  tests:
-    name: Run First Test
-    runs-on: ubuntu-latest
+  laravel-tests:
 
-    steps:
-      -name: Test First Run
-      run: echo("hello world")
+    runs-on: ubuntu-latest
 
 
 
