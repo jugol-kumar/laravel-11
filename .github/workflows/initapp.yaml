@@ -10,9 +10,8 @@ jobs:
     steps:
       -uses: actions/checkout@v3
 
-      name: Echo First Run
-      uses: echo('hello world...!')
-
+      -name: Test First Run
+      run: echo("hello world")
 
 
 
